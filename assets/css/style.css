@@ -154,6 +154,10 @@ ul.navbar-nav .nav-button {
   padding: 5%;
 }
 
+.footer-body {
+  flex-direction: column-reverse;
+}
+
 .footer .info p {
   font-size: 0.875rem;
 }
@@ -168,7 +172,7 @@ ul.navbar-nav .nav-button {
   padding: 0;
 }
 
-.quick-links li, .company li {
+.quick-links li:not(:first-child), .company li:not(:first-child) {
   margin: 1rem 0
 }
 
@@ -206,5 +210,9 @@ ul.navbar-nav .nav-button {
 
   .section-3 p {
     text-align: center;
+  }
+
+  .footer-body {
+    flex-direction: row;
   }
 }
