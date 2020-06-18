@@ -3,6 +3,9 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.form-control {
+  background: rgba(0, 136, 204, 0.08);
+}
 
 /*Navigation*/
 .navbar {
@@ -124,10 +127,12 @@ ul.navbar-nav .nav-button {
 
 .ios-badge img {
   height: 31px;
+  cursor: pointer;
 }
 
 .google-play-badge img {
   height: 31px;
+  cursor: pointer;
 }
 
 .app-download .col-6:first-child {
